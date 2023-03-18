@@ -1,7 +1,7 @@
 //assignment for Module 1 of Data Struct & Algorithms
 //package imports
 
-public class HomebrewedArrayList {
+public class MyArrayList {
     /*class description:
      *this is a limited replication of the ArrayList class
      */
@@ -15,10 +15,10 @@ public class HomebrewedArrayList {
     public static final int INITIAL_CAPACITY = 4;
 
     //constructors
-    public HomebrewedArrayList() {
+    public MyArrayList() {
         this(INITIAL_CAPACITY);
     }
-    public HomebrewedArrayList(int capacity) {
+    public MyArrayList(int capacity) {
         this.capacity = capacity;
         this.size = 0;
         this.backingArray = new Integer[capacity];
@@ -89,7 +89,7 @@ public class HomebrewedArrayList {
 
     public static void main(String[] args) {
         //implementing a test case
-        HomebrewedArrayList testArray = new HomebrewedArrayList();
+        MyArrayList testArray = new MyArrayList();
         System.out.println("Initial capacity: " + testArray.capacity + " Initial size: " + testArray.size);
         testArray.addToFront(6);
         testArray.addToFront(5);

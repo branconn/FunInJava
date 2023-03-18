@@ -1,0 +1,75 @@
+// Module 2 Lesson 4 - Module .. Lesson..
+
+String major;
+major = new String("Computer Science");
+
+String major = new String("Computer Science");
+
+String major = "Computer Science"; //this is a syntactic shortcut, an object is still being created.
+
+int numChars = major.length();
+
+String interest = "Long walks on the beach";
+String interestLower = interest.toLowerCase();
+//permutations are strings are performed on the calling object, not the original object
+// String objects are immutable
+
+public String concat(String str)
+
+String major = "computer science";
+major.substring(3,6); //returns "put"
+
+public class IndexOfTest {
+    public static void main(String[] args) {
+        String funnyStr = "Computer!Science,!long!walks!on!the!beach";
+        int a = funnyStr.indexOf(33);
+        int b = funnyStr.indexOf('!'); //chars are converted to Unicode int value
+        int c = funnyStr.indexOf("!");
+        int d = funnyStr.indexOf("!Science");
+        int e = funnyStr.indexOf("!Science,!long");
+        System.out.println(a);
+        System.out.println(b);
+        System.out.println(c);
+        System.out.println(d);
+        System.out.println(e);
+    }
+}
+
+
+/*
+Notes:
+
+A Class is analogous to a template, and an Object is an instance of that template.
+Classes have attributes (variables) and methods (processes)
+
+Declaring variables of objects is the same as declaring a var from a primitive:
+<type><identifier>; e.g.:
+	int saturdayFahrenheit; primitive
+	String major; object
+An object variable does not store the object, it holds a reference that represents the location in memory where the actual object is stored (in the heap).
+
+object variable := Reference Variable
+declaration then initialization (assigning value)
+<type><identifier> = <value>;
+
+The process of creating an object is instantiation (an object is a live instance of a class).
+
+new ClassName(parameters)
+new calls the constructor
+
+Java[Syntax; Compiler; JVM; API (standard library);]
+application programming interface
+
+identifier.methodName(parameters)
+
+interesting note: methods are shared between classes, data is unique
+
+When two variables point to the same object, they are called aliases:
+	String major = new String("Computer Science")
+	String interest = major;
+
+Changing an obj through one alias changes it for all others.
+
+Also, if all variables switch from pointing to the Object "Computer Science" to pointing to the Object "Basket Weaving", then the Object "Computer Science" is now removed from memory in a process called garbage collection.
+
+*/
