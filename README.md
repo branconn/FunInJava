@@ -1,6 +1,6 @@
 ## Getting Started
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Here where I store my solutions for the self-paced [Object-Oriented Programming](https://www.edx.org/professional-certificate/gtx-introduction-to-object-oriented-programming-with-java) and [Data Structures & Algorithms](https://www.edx.org/professional-certificate/gtx-data-structures-and-algorithms) courses on GT's EdX. I audited these courses in preparation for entering the OMSCS program. This was my first introduction to Java, though I was already somewhat familiar with the conceptual material.
 
 ## Folder Structure
 
